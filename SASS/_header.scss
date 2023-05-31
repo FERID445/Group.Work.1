@@ -1,0 +1,172 @@
+header, .header-logo, .header-pages{
+    display: flex;
+}
+
+header{
+    padding: 22px 0;
+    align-items: center;
+    justify-content: space-around;
+    .list{
+        .burger-icon{
+            display: none;
+        }
+    }
+    .header-logo{
+        align-items:center;
+        margin-left: 100px;
+
+        h5{
+            font-size: 25px;
+            margin-left: 16px;
+            color:#2E3A59;
+            &:hover{
+                cursor: pointer;
+                color: #FF3D71;
+            }
+        }
+
+        a{
+            color:#2E3A59;
+            padding-right: 48px;
+            font-size: 15px;
+            transition: 0.2s ease;
+
+            &:hover{
+                color:#FF3D71;
+            }
+            
+        }
+    }
+
+    .list{
+        margin-left: 150px;
+
+        .header-pages{
+
+            list-style: none;
+            a{
+                color:#2E3A59;
+                padding-right: 48px;
+                font-size: 15px;
+                transition: 0.2s ease;
+
+                &:hover{
+                    color:#FF3D71;
+                }
+            }
+
+
+            
+            
+        }
+    }
+
+    .header-right{
+        i{ 
+            font-size:20px;
+            color:#2E3A59;
+            margin-right: 15px;
+            align-items: center;
+        }
+    }
+
+        .trydemo{
+            width: 113px;
+            height: 40px;
+            background-color: #fff;
+            border: 1px solid #C5CEE0;
+            border-radius: 10px;
+            color: #2E3A59;
+            text-align: center;
+            margin-right: 8px;
+            font-size: 15px;
+            transition: 0.2s ease;
+
+            &:hover{
+                background-color: #FF3D71;
+                color:#fff;
+                cursor: pointer;
+            }
+        }
+
+        .button-buy{
+            width: 155px;
+            height: 40px;
+            background-color: #FF3D71;
+            border-radius: 10px;
+            color: #fff;
+            border:none;
+            text-align: center;
+            margin-right: 124px;
+            font-size: 15px;
+            &:hover{
+                
+                cursor: pointer;
+            }
+        }
+    }
+
+    hr{
+        background-color: #EDF1F7;
+        border-top-width: 2px;
+    }
+
+
+
+    @media only screen and (max-width:576px) {
+        header{
+            display: flex;
+            justify-content: space-around;
+            
+            .list{
+                order: -1;
+                margin: 0;
+                .burger-icon{
+                    display: flex;  
+                    font-size: 24px;
+                    margin-left:15px;
+                }
+            }
+            .header-right{
+                display: flex;
+                align-items: center;
+                .button-buy{
+                    width: 128px;
+                }
+            }
+    
+           .header-logo{
+            margin-left: 15px;
+            .header-logo-name{
+                width: 120px;
+            }
+           }
+            
+            h5{
+                width: 150px;
+            }
+            li{
+                display: none;
+            }
+        .trydemo{
+            display: none;
+        }
+    
+        .button-buy{
+            width: 93px;
+            margin: 0;
+            margin-right: 16px;
+        }
+        }
+
+        .main-image{
+            img{
+                width: 404px;
+                
+            }
+            
+        }
+        .rectangle-2{
+            display: none;
+        }
+    }

@@ -1,0 +1,223 @@
+header, .header-logo, .header-pages {
+  display: flex;
+}
+
+header {
+  padding: 22px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+header .list .burger-icon {
+  display: none;
+}
+header .header-logo {
+  align-items: center;
+  margin-left: 100px;
+}
+header .header-logo h5 {
+  font-size: 25px;
+  margin-left: 16px;
+  color: #2E3A59;
+}
+header .header-logo h5:hover {
+  cursor: pointer;
+  color: #FF3D71;
+}
+header .header-logo a {
+  color: #2E3A59;
+  padding-right: 48px;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+header .header-logo a:hover {
+  color: #FF3D71;
+}
+header .list {
+  margin-left: 150px;
+}
+header .list .header-pages {
+  list-style: none;
+}
+header .list .header-pages a {
+  color: #2E3A59;
+  padding-right: 48px;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+header .list .header-pages a:hover {
+  color: #FF3D71;
+}
+header .header-right i {
+  font-size: 20px;
+  color: #2E3A59;
+  margin-right: 15px;
+  align-items: center;
+}
+header .trydemo {
+  width: 113px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #C5CEE0;
+  border-radius: 10px;
+  color: #2E3A59;
+  text-align: center;
+  margin-right: 8px;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+header .trydemo:hover {
+  background-color: #FF3D71;
+  color: #fff;
+  cursor: pointer;
+}
+header .button-buy {
+  width: 155px;
+  height: 40px;
+  background-color: #FF3D71;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  text-align: center;
+  margin-right: 124px;
+  font-size: 15px;
+}
+header .button-buy:hover {
+  cursor: pointer;
+}
+
+hr {
+  background-color: #EDF1F7;
+  border-top-width: 2px;
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  header .list {
+    order: -1;
+    margin: 0;
+  }
+  header .list .burger-icon {
+    display: flex;
+    font-size: 24px;
+    margin-left: 15px;
+  }
+  header .header-right {
+    display: flex;
+    align-items: center;
+  }
+  header .header-right .button-buy {
+    width: 128px;
+  }
+  header .header-logo {
+    margin-left: 15px;
+  }
+  header .header-logo .header-logo-name {
+    width: 120px;
+  }
+  header h5 {
+    width: 150px;
+  }
+  header li {
+    display: none;
+  }
+  header .trydemo {
+    display: none;
+  }
+  header .button-buy {
+    width: 93px;
+    margin: 0;
+    margin-right: 16px;
+  }
+  .main-image img {
+    width: 404px;
+  }
+  .rectangle-2 {
+    display: none;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Euclid Circular A";
+  text-decoration: none;
+  font-family: euclid-circual !important;
+}
+
+@font-face {
+  font-family: euclid-circual;
+  src: url(/assets/Euclid\ Circular\ A\ Regular.ttf);
+}
+h3 {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  /* or 118% */
+  text-align: center;
+  margin-top: 48px;
+  color: #2E3A59;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.main img {
+  margin-right: 16px;
+}
+.main span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2E3A59;
+  margin-bottom: 2px;
+}
+
+article img {
+  display: block;
+  min-width: 800px;
+  min-height: 521px;
+}
+article button {
+  padding: 6px 16px;
+  background-color: white;
+  margin: 24px 0;
+}
+
+.container {
+  margin-top: 24px;
+  margin-left: 15%;
+  margin-right: 320px;
+}
+.container p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+.container li {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.container h4 {
+  margin: 48px 0 32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+.container img {
+  display: block;
+  margin: auto;
+}/*# sourceMappingURL=sass.css.map */
